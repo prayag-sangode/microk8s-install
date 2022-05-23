@@ -16,6 +16,8 @@
 
 `curl https://raw.githubusercontent.com/prayag-sangode/microk8s-install/main/microk8s-ub.sh | sudo bash`
 
+`sudo snap alias microk8s.kubectl kubectl`
+
 `sudo usermod -a -G microk8s <username>`
 
 `sudo chown -f -R <username> ~/.kube`
