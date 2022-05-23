@@ -8,6 +8,8 @@ sudo systemctl start snapd
 sleep 5
 sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install microk8s --classic
+echo 'export PATH=$PATH:/var/lib/snapd/snap/bin' | sudo tee -a /etc/profile.d/snap.sh
+source /etc/profile.d/snap.sh
 sleep 5
 
 sudo bash /etc/profile.d/snapd.sh
