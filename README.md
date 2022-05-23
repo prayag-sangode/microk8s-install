@@ -5,7 +5,7 @@
 
 # Microk8s Installation on Unbutu
 
-`curl https://raw.githubusercontent.com/prayag-sangode/microk8s-install/main/microk8s-install.sh | sudo bash`
+`curl https://raw.githubusercontent.com/prayag-sangode/microk8s-install/main/microk8s-ub.sh | sudo bash`
 
 `sudo usermod -a -G microk8s <username>`
 
